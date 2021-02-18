@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
-    <link type="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <script src="./script.js"></script>
 
     <header>
-        <span>Password Generator</span>
+        <h1>Password Generator</h1>
     </header>
-    <div id="container">
-        <div>
-            <span>Generate a Password</span>
+    <div id="card">
+        <div id="cardHeader">
+            <h2>Generate a Password</h2>
         </div>
-        <div id="generatedPassword">
-            <span>Your Sercure Password</span>
+        <div id="passwordBox">
+            <p id="generatedPassword">Your Sercure Password</p>
         </div>
-        <button id="createPassword">
-            <span>Generate Password</span>
-        </button>
-            <span>Copy to Clipboard</span>
-        <button id="copyPassword">
-
-        </button>
+        <div id="cardFooter">
+            <button id="createPassword">
+                <span>Generate Password</span>
+            </button>
+            <button id="copyPassword">
+                <span>Copy to Clipboard</span>
+            </button>
+        </div>
     </div>
 
 
 
-        
+
 </body>
+
 </html>

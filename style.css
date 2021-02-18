@@ -1,0 +1,52 @@
+body {
+    font-size: 24px;
+    background-color: rgb(216, 216, 216);
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    text-align: center;
+}
+#card {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#passwordBox {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: rgb(216,216,216);
+    text-align: center;
+    margin-bottom: 20px;;
+}
+
+#generatedPassword {
+    margin: 20px;
+}
+
+#cardFooter {
+    display:flex;
+    justify-content:space-around;
+}
+#createPassword {
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    border-style: none;
+    padding:10px;
+    font-size: 24px;
+
+}
+
+#copyPassword {
+    background-color: grey;
+    color: white;
+    border-radius: 25px;
+    border-style: none;
+    padding:15px;
+    font-size: 24px;
+
+}
