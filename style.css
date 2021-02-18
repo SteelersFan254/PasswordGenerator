@@ -15,12 +15,18 @@ header {
     background: #e7e9eb;
     height: 2px;
 }
+
+h3{
+    margin:25px 0 10px 0;
+}
 #charChoices {
     margin-bottom: 20px;
 }
+
 .options {
     font-size: 16px;
 }
+
 #card {
     background-color: white;
     width: 80%;
@@ -51,7 +57,6 @@ header {
     border-radius: 25px;
     border-style: none;
     padding:15px;
-    font-size: 24px;
 
 }
 
@@ -61,6 +66,31 @@ header {
     border-radius: 25px;
     border-style: none;
     padding:15px;
-    font-size: 24px;
 
+}
+
+@media screen and (max-width: 1024px) {
+body {
+    font-size: 20px;
+}
+
+#card {
+    width: 90%
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+body {
+    font-size: 16px;
+}
+
+.options {
+    font-size: 12px;
+}
+
+#createPassword, #copyPassword {
+
+}
 }
