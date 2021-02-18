@@ -13,7 +13,6 @@
 
 <body>
 
-    <script src="./script.js"></script>
 
     <header>
         <h1>Password Generator</h1>
@@ -22,20 +21,32 @@
         <div id="cardHeader">
             <h2>Generate a Password</h2>
         </div>
+        <div id="charChoices">
+            <h3>Choose the type of characters you would like</h3>
+            <input type="checkbox" class="options" id="lower" name="lower">
+            <label for = "lower">Lowercase</label>
+            <input type="checkbox" class="options" id="upper" name="upper">
+            <label for = "upper">Uppercase</label>
+            <input type="checkbox" class="options" id="numbers" name="numbers">
+            <label for = "numbers">Numbers</label>
+            <input type="checkbox" class="options" id="special" name="special">
+            <label for = "special">Special Characters</label>
+        </div>
         <div id="passwordBox">
             <p id="generatedPassword">Your Sercure Password</p>
         </div>
         <div id="cardFooter">
-            <button id="createPassword">
+            <div id="createPassword">
                 <span>Generate Password</span>
-            </button>
-            <button id="copyPassword">
+            </div>
+            <div id="copyPassword">
                 <span>Copy to Clipboard</span>
-            </button>
+            </div>
         </div>
     </div>
 
 
+    <script src="./script.js"></script>
 
 
 </body>

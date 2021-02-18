@@ -7,6 +7,20 @@ body {
 header {
     text-align: center;
 }
+
+#cardHeader::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    background: #e7e9eb;
+    height: 2px;
+}
+#charChoices {
+    margin-bottom: 20px;
+}
+.options {
+    font-size: 16px;
+}
 #card {
     background-color: white;
     width: 80%;
@@ -36,7 +50,7 @@ header {
     color: white;
     border-radius: 25px;
     border-style: none;
-    padding:10px;
+    padding:15px;
     font-size: 24px;
 
 }
