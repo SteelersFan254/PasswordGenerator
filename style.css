@@ -8,6 +8,14 @@ header {
     text-align: center;
 }
 
+#card {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 #cardHeader::after {
     content: " ";
     display: block;
@@ -21,6 +29,8 @@ h3{
     width: 100%;
 }
 
+
+
 #charChoices {
     margin-bottom: 20px;
     display: flex;
@@ -31,14 +41,18 @@ h3{
     font-size: 16px;
 }
 
-#card {
-    background-color: white;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
+#charAmount {
+    margin-bottom: 10px;
 }
 
+#currentCharCount {
+    background-color: rgb(216, 216, 216);
+    padding: 0 10px;
+    border:solid;
+    border-color: black;
+    border-width: 1px;
+
+}
 #passwordBox {
     border-style: dashed;
     border-width: 3px;
@@ -97,6 +111,7 @@ body {
 #charChoices {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 
 }
 .options {
@@ -107,6 +122,10 @@ body {
 .checkbox {
     margin: 0;
 
+}
+
+#charAmount {
+    margin-bottom: 10px;
 }
 #createPassword, #copyPassword {
     font-size: 12px;
