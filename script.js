@@ -8,3 +8,7 @@ genBtn.addEventListener("click", function () {
         console.log("not owrking")
     }
 })
+
+function outputUpdate(vol) {
+	document.querySelector('#volume').value = vol;
+}
