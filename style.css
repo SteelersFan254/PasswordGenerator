@@ -18,9 +18,13 @@ header {
 
 h3{
     margin:25px 0 10px 0;
+    width: 100%;
 }
+
 #charChoices {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .options {
@@ -86,11 +90,26 @@ body {
     font-size: 16px;
 }
 
-.options {
-    font-size: 12px;
+#card {
+    width:98%;
 }
 
-#createPassword, #copyPassword {
+#charChoices {
+    display: flex;
+    flex-direction: column;
 
+}
+.options {
+    font-size: 12px;
+    margin: 0;
+}
+
+.checkbox {
+    margin: 0;
+
+}
+#createPassword, #copyPassword {
+    font-size: 12px;
+    padding: 10px;
 }
 }

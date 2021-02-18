@@ -21,16 +21,25 @@
         <div id="cardHeader">
             <h2>Generate a Password</h2>
         </div>
-        <div id="charChoices">
             <h3>Choose the type of characters you would like:</h3>
-            <input type="checkbox" id="lower" name="lower">
+        <div id="charChoices">
+
+            <div>
+            <input type="checkbox" class="checkbox" id="lower" name="lower">
             <label for = "lower" class="options">Lowercase</label>
-            <input type="checkbox" id="upper" name="upper">
+        </div>
+        <div>
+            <input type="checkbox" class="checkbox" id="upper" name="upper">
             <label for = "upper" class="options">Uppercase</label>
-            <input type="checkbox" id="numbers" name="numbers">
+        </div>
+        <div>
+            <input type="checkbox" class="checkbox" id="numbers" name="numbers">
             <label for = "numbers" class="options">Numbers</label>
-            <input type="checkbox" id="special" name="special">
+        </div>
+        <div>
+            <input type="checkbox" class="checkbox" id="special" name="special">
             <label for = "special" class="options">Special Characters</label>
+        </div>
         </div>
         <div id="passwordBox">
             <p id="generatedPassword">Your Sercure Password</p>
