@@ -35,6 +35,8 @@ h3{
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
 }
 
 .options {
@@ -78,15 +80,6 @@ h3{
 
 }
 
-#copyPassword {
-    background-color: grey;
-    color: white;
-    border-radius: 25px;
-    border-style: none;
-    padding:15px;
-
-}
-
 @media screen and (max-width: 1024px) {
 body {
     font-size: 20px;
@@ -96,8 +89,15 @@ body {
     width: 90%
 }
 
+
 }
 
+@media screen and (max-width: 768px) {
+
+#charChoices {
+    width: 100%;
+}
+}
 @media screen and (max-width: 480px) {
 
 body {
@@ -127,7 +127,7 @@ body {
 #charAmount {
     margin-bottom: 10px;
 }
-#createPassword, #copyPassword {
+#createPassword, {
     font-size: 12px;
     padding: 10px;
 }
